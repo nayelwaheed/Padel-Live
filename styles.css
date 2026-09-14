@@ -57,7 +57,7 @@ dialog{width:min(calc(100% - 30px),500px);border:1px solid var(--line);border-ra
   border:0; background:var(--accent); color:#f3eadb; padding:10px 13px;
   border-radius:12px; font-weight:850; font-size:12px;
 }
-.watch-btn.secondary-action { background:#26202f; color:var(--text); border:1px solid var(--line); }
+.watch-btn.secondary-action { background:#26202f; color:#f3eadb; border:1px solid var(--line); }
 @media (max-width: 430px) {
   .match-footer { align-items:flex-start; gap:10px; flex-direction:column; }
   .match-actions { width:100%; justify-content:stretch; }
@@ -67,7 +67,7 @@ dialog{width:min(calc(100% - 30px),500px);border:1px solid var(--line);border-ra
 .live-stream-panel { margin:12px 0 4px; }
 .live-stream-card {
   display:flex; align-items:center; justify-content:space-between; gap:14px;
-  width:100%; text-decoration:none; color:var(--text);
+  width:100%; text-decoration:none; color:#f3eadb;
   padding:15px 16px; border-radius:18px;
   background:linear-gradient(135deg, rgba(138,76,255,.28), rgba(95,45,171,.14)), var(--panel);
   border:1px solid rgba(174,120,255,.45);
